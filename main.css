@@ -1,0 +1,44 @@
+body {
+     position: absolute;
+     top: 25%;
+     left: 25%;
+}
+.Scards {
+ height: 330px;
+ width: 170px;
+ position: relative;
+ cursor: pointer;
+ margin-right: 10px;
+ padding: 10px 10px;
+ border-width: 3px;
+ border-radius: 5%;
+ background-color: white;
+ border-style: solid;
+ background-size: cover;
+ display: inline-block;
+}
+div:hover { 
+ transform: scale(1.2);
+ transition: all 0.5s;
+}
+div img {
+    height: 200px;
+    width: 170px;
+}
+.Scards button {
+    height: 30px;
+    width: 150px;
+    position: relative;
+    transform: translate(10%, -50%);
+    transition: 2s all linear;
+    background-color: #1DB954;
+    border: 5px solid white;
+    border-radius: 11px;
+    cursor: pointer;
+    border-bottom: #1DB954;
+}
+div p {
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+}
